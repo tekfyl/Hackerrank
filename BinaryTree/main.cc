@@ -119,8 +119,7 @@ void levelOrder(node * root) {
             q.push(t->right);
         }
         cout << t->data << " ";
-    }
-  
+    }  
 }
 
 /*
